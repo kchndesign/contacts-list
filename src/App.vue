@@ -82,6 +82,10 @@ onMounted(() => {
     <main class="content-wrapper">
         <h1 class="font-light">Contacts</h1>
 
+        <!-- -------------------- -->
+        <!-- Render contacts list -->
+        <!-- -------------------- -->
+
         <div class="contacts-list">
             <template
                 v-for="(filteredContactsArray, index) in filteredContactsArrays"
