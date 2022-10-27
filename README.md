@@ -93,8 +93,6 @@ showing.
 
 ## Known issues
 
--   The google maps link doesn't do anything (I don't know why)
--   It also doesn't end up displaying a pin at the correct latitude and
-    longitude.
+-   The google maps link trigger navigation (I don't know why)
 -   In mobile layouts when the modal is scrolled down. The close button doesn't
     move and is left in the middle somewhere.
