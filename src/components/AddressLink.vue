@@ -26,7 +26,7 @@ const generateGoogleMapsUrlFromLocationLiteral = (
     // return "https://google.com";
 
     return (
-        "https://www.google.com/maps/search/?api=1&" +
+        "https://www.google.com/maps/search/?api=1&query=" +
         encodeURIComponent(loc.lat + "," + loc.lng)
     );
 };
