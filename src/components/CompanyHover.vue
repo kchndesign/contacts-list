@@ -63,6 +63,8 @@ defineProps<{
 .company-hover {
     position: relative;
 
+    text-decoration: dashed underline;
+
     &:hover .tooltip {
         visibility: visible;
     }
