@@ -23,7 +23,7 @@ const formatAddressAsSentence = (a: Address): string => {
 const generateGoogleMapsUrlFromLocationLiteral = (
     loc: LocationLiteral
 ): string => {
-    // return "https://google.com";
+    // return "/index";
 
     return (
         "https://www.google.com/maps/search/?api=1&query=" +

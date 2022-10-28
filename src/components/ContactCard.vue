@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import type { Contact } from "@/models/api";
-import { defineProps, ref } from "vue";
+import { ref } from "vue";
 import ContactModal from "./ContactModal.vue";
 
 // define props

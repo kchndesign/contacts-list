@@ -36,7 +36,7 @@ const closeModal = () => {
     <!-- -------------------------- -->
 
     <div v-if="isModalOpen" class="modal__backdrop" @click="closeModal()">
-        <div class="modal" @click.prevent.stop>
+        <div class="modal" @click.stop>
             <div class="modal__header">
                 <img
                     :src="PersonInfoIcon"
