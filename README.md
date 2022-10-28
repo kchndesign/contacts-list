@@ -93,6 +93,5 @@ showing.
 
 ## Known issues
 
--   The google maps link trigger navigation (I don't know why)
 -   In mobile layouts when the modal is scrolled down. The close button doesn't
     move and is left in the middle somewhere.
